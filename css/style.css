@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: blue;
   }
   
   .square {
@@ -22,4 +22,28 @@ body {
   
   .blue-container .row .col-3 .square {
     background-color: blue;
+  }
+
+  
+   .square1{
+    width: 50px;
+    height: 50px;
+   background-color:yellow;
+   margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+  .square2{
+    width: 50px;
+    height: 50px;
+   background-color:violet;
+   margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
