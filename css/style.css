@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    background-color: #87CEEB;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blue-container {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin: 20px 50px;
+  }
+  
+  .blue-container .row .col-3 .square {
+    background-color: blue;
+  }
